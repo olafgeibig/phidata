@@ -12,7 +12,7 @@ db_url = "postgresql+psycopg://ai:ai@localhost:5532/ai"
 
 
 def get_auto_rag_assistant(
-    llm_model: str = "gpt-4-turbo",
+    llm_model: str = "gpt-4o",
     user_id: Optional[str] = None,
     run_id: Optional[str] = None,
     debug_mode: bool = True,
